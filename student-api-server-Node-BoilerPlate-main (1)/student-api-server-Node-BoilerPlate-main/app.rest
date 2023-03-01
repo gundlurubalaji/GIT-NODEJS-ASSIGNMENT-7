@@ -1,0 +1,15 @@
+GET http://localhost:8080/api/student/
+
+
+
+###
+POST http://localhost:8080/api/student/
+Content-Type: application/x-www-form-urlencoded;
+
+{
+    "student":{
+        "name":"balaji"
+
+    }
+}
+
